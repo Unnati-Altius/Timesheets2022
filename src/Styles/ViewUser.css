@@ -1,0 +1,67 @@
+.btn1 {
+    background-color: #f1f1f1 !important;
+    color: black !important;
+    border-color: black !important;
+    margin: 1rem;
+  }
+
+.btn2{
+    background-color: rgba(33, 201, 201, 1) !important;
+    color: white !important;
+    margin: 0.2rem;
+}
+
+.btn3{
+    background-color: rgba(33, 201, 201, 1) !important;
+    color: white !important;
+}
+
+.btn4{
+    background-color: rgba(33, 201, 201, 1) !important;
+    color: white !important;
+    margin-left: 43rem;
+    margin-top: 1rem;
+}
+
+/* Style the search field */
+form.example input[type=text] {
+padding: 0.3rem;
+margin-right: 7rem;
+margin-top: -3.2rem;
+font-size: 17px;
+border: 1px solid grey;
+border-radius: 5px;
+float: right;
+background: #f1f1f1;
+}
+
+/* Style the submit button */
+form.example button {
+float: right;
+width: 2.5rem;
+padding: 0.3rem;
+margin-top: -3.2rem;
+margin-right: 7rem;
+background: rgba(33, 201, 201, 1);
+border-radius: 5px;
+color: white;
+font-size: 17px;
+border: 1px solid grey;
+border-left: none; /* Prevent double borders */
+cursor: pointer;
+}
+
+form.example button:hover {
+background:rgb(28, 156, 156);
+}
+
+/* Clear floats */
+form.example::after {
+content: "";
+clear: both;
+display: table;
+}
+
+.table{
+    margin-top: 1rem;
+}
